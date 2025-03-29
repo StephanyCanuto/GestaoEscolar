@@ -25,9 +25,9 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno" +
-        "\nnome: " + nomeAluno + "\n"+
-        "idade: " + idadeAluno + "\n"+
-        "matricula: " + matriculaAluno + "\n";
+        return
+        "\nnome: " + nomeAluno + " - "+
+        "idade: " + idadeAluno + " - "+
+        "matricula: " + matriculaAluno ;
     }
 }
