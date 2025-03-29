@@ -1,6 +1,7 @@
 import models.Aluno;
 import models.Escola;
 import models.Professor;
+import models.Turma;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +21,14 @@ public class Main {
         escola.adicionarProfessor(professor3);
         escola.ListarAlunos();
         escola.ListarProfessores();
+
+        Turma turma = new Turma("Java", 2025, professor1);
+        turma.adicionarAlunoTurma(aluno1);
+        turma.adicionarAlunoTurma(aluno2);
+        turma.adicionarAlunoTurma(aluno3);
+        turma.ListarTurmas();
+
+
 
     }
 
