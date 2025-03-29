@@ -24,14 +24,14 @@ public class Escola {
     public void ListarAlunos(){
         System.out.println("Lista de alunos");
         for(Aluno aluno:alunos){
-            System.out.println(aluno);
+            System.out.println(aluno + "\n");
         }
     }
 
     public void ListarProfessores(){
         System.out.println("Lista de professores");
         for(Professor professor:professores){
-            System.out.println(professor);
+            System.out.println(professor + "\n");
         }
     }
 }
