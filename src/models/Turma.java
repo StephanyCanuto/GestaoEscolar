@@ -33,17 +33,18 @@ public class Turma {
     }
 
     public void ListarTurmas(){
-        System.out.println("-------------------------------------");
-        System.out.println("-------------------------------------");
-        System.out.println("Nome da Turma: "+ nomeTurma + "\n");
-        System.out.println("Ano letivo: "+ anoLetivo + "\n");
-        System.out.println("-------------------------------------");
-        System.out.println("Lista de alunos");
+        System.out.println();
+        System.out.println("-----------TURMA---------------");
+        System.out.println();
+        System.out.println("Nome da Turma: "+ nomeTurma );
+        System.out.println("Ano letivo: "+ anoLetivo);
+
+        System.out.println("\nLista de alunos");
         for(Aluno aluno:alunos){
-            System.out.println(aluno + "\n");
+            System.out.println(aluno.getNomeAluno());
         }
-        System.out.println("Professor: " + professor);
-        System.out.println("-------------------------------------");
+        System.out.println("\nProfessor(a): " + professor.getNomeProfessor() + "\nDisciplina: "+ professor.getDisciplinaProfessor());
+        System.out.println();
     }
 
 

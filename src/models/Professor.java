@@ -28,6 +28,6 @@ public class Professor {
         return
                 "\nnome: " + nomeProfessor + "\n" +
                 "idade: " + idadeProfessor + "\n"+
-                "disciplina: " + disciplinaProfessor + "\n";
+                "disciplina: " + disciplinaProfessor;
     }
 }

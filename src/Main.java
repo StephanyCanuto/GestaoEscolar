@@ -1,7 +1,4 @@
-import models.Aluno;
-import models.Escola;
-import models.Professor;
-import models.Turma;
+import models.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,6 +26,8 @@ public class Main {
         turma.ListarTurmas();
 
 
+        Disciplina disciplina = new Disciplina("Matematica", 100, professor3);
+        disciplina.ListarDisciplina();
 
     }
 
